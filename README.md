@@ -17,17 +17,33 @@ This style-guide is somewhat of a mash-up between the existing Kotlin language s
 
 It is possible to get Android Studio to adhere to these style guidelines, via a rather complex sequence of menus. To make it easier, we've provided a coding style that can be imported into Android Studio.
 
-The file can be found [here](https://www.github.com/krayong/Android-Style-Guide/settings.zip).
+The file can be found [here](settings.zip).
 
 To use these settings:
  - If you have a project opened, go to **File > Manage IDE Settings > Import Settings** and then select this zip file.
  - If you are on the select project dialogue, go to **Configue > Import Settings** and then select this zip file.
 
 
+# Recommended Plugins for Android Studio
+
+| Plugins                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------- |
+| [Android Parcelable Code Generator](https://plugins.jetbrains.com/plugin/16132-android-parcelable-code-generator) |
+| [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)                             |
+| [CodeGlance](https://plugins.jetbrains.com/plugin/7275-codeglance)                                                |
+| [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)                                                      |
+| [Markdown](https://plugins.jetbrains.com/plugin/7793-markdown)                                                    |
+| [Material Color Palette](https://plugins.jetbrains.com/plugin/8590-material-color-palette)                        |
+| [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)                                       |
+| [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)                                   |
+| [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)                              |
+
+
 # Table of Contents
 
 - [Inspiration](#inspiration)
 - [Android Studio Coding Style](#android-studio-coding-style)
+- [Recommended Plugins for Android Studio](#recommended-plugins-for-android-studio)
 - [Table of Contents](#table-of-contents)
 - [File Naming](#file-naming)
   - [Packages](#packages)
