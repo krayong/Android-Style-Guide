@@ -875,17 +875,41 @@ Example:
 
 ```kotlin
 public class MainActivity: Activity {
-    private val TAG = MainActivity::class.qualifiedName
+    private const val TAG = this::class.qualifiedName
 
-    private var title: String?
-    private var textViewTitle: TextView?
+    override val ...
+    override var ...
+
+    public val ....
+    protected val ...
+    val ...
+    private val ...
+
+    public var ...
+    protected var ...
+    var ...
+    private var ...
+
+    private lateinit var ...
+
+    private val abcObject: AbcObject by lazy {
+        AbcObject()
+    }
 
     override fun onCreate() {
         ...
     }
 
-    public fun setTitle(title: String) {
-    	this.title = title
+    public suspend fun uploadData() {
+        ...
+    }
+
+    private suspend fun getData() {
+        ...
+    }
+
+    public fun setTitle() {
+    	...
     }
 
     private fun setUpView() {
@@ -893,7 +917,16 @@ public class MainActivity: Activity {
     }
 
     inner class AnInnerClass {
+        ...
+    }
 
+    companion object {
+        public const val ...
+        private const val ...
+
+        fun changeView() {
+            ...
+        }
     }
 }
 ```
